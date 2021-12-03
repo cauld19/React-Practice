@@ -38,7 +38,7 @@ export const useHomeFetch = () => {
         setLoading(false);
     }
 
-    //intial render and search
+    //intial render and search//
     useEffect(()=>{
         if(!searchTerm){
             const sessionState = isPersistedState("homeState");
